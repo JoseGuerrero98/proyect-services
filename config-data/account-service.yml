@@ -5,3 +5,7 @@ spring:
     mongodb:
       uri: mongodb+srv://jguerrero:josesitoxd98@cluster0.nrk81.azure.mongodb.net/test?retryWrites=true&w=majority
       database: bank
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8099/eureka
